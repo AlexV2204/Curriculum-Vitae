@@ -1,0 +1,82 @@
+/* Taille et Mise en Forme */
+/* Height */
+.head1 {
+    height: 200px;
+}
+.head2 {
+    height: 100px;
+}
+.corps {
+    height: 30px;
+}
+/* Text align */
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.middle {
+    vertical-align: middle;
+}
+/* Font style */
+.bold {
+    font-weight: bold;
+}
+.italique {
+    font-style : italic;
+}
+.black {
+    color: rgb(26, 25, 25);
+}
+
+/* Name */
+.name {
+    font-size: 100px;
+    line-height: 225px;
+}
+/* Image */
+img {
+    max-width: 100%;
+    height: auto    ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid;
+    border-color: white;
+    clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 80%, 85% 100%, 20% 100%, 0 100%, 0% 20%);
+}
+/* Titre pro */
+.title-pro {
+    font-size: 40px;
+    border-radius: 0 20px 20px 0;
+    line-height: 90px;
+}
+
+/*Couleur*/
+.greenlight {
+    background-color: rgb(127, 150, 127);
+}
+.green {
+    background-color: rgb(116, 177, 116);
+}
+.grey {
+    background-color: rgb(170, 159, 159);
+}
+
+@media (min-width: 576px) { 
+    .block {
+        height: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .block {
+        height: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .block {
+        height: 80px;
+    }
+}
